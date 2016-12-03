@@ -76,10 +76,10 @@
             </objects>
             <point key="canvasLocation" x="-228" y="-24"/>
         </scene>
-        <!--View Controller-->
+        <!--Profile View Controller-->
         <scene sceneID="fbq-Hl-xu1">
             <objects>
-                <viewController id="wov-Yc-MRf" sceneMemberID="viewController">
+                <viewController id="wov-Yc-MRf" customClass="ProfileViewController" customModule="BarTipper" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="p90-ya-AAq"/>
                         <viewControllerLayoutGuide type="bottom" id="zmF-Hc-ThD"/>
@@ -180,6 +180,9 @@
                             <constraint firstItem="aGh-W9-qFx" firstAttribute="centerX" secondItem="LUV-oA-rLK" secondAttribute="centerX" id="k5Y-gV-i8Z"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="name" destination="EqS-qS-CE9" id="onZ-Le-FVn"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xEx-y1-kCS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
