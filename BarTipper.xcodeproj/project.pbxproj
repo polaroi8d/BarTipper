@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB94668B1DF3306F00292E44 /* CalculateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB94668A1DF3306F00292E44 /* CalculateViewController.swift */; };
+		DBE76A0F1DF30C3800CEFA94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE76A0E1DF30C3800CEFA94 /* AppDelegate.swift */; };
+		DBE76A111DF30C3800CEFA94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE76A101DF30C3800CEFA94 /* ViewController.swift */; };
+		DBE76A141DF30C3800CEFA94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBE76A121DF30C3800CEFA94 /* Main.storyboard */; };
+		DBE76A171DF30C3800CEFA94 /* BarTipper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DBE76A151DF30C3800CEFA94 /* BarTipper.xcdatamodeld */; };
+		DBE76A191DF30C3800CEFA94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBE76A181DF30C3800CEFA94 /* Assets.xcassets */; };
+		DBE76A1C1DF30C3800CEFA94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBE76A1A1DF30C3800CEFA94 /* LaunchScreen.storyboard */; };
+		DBE76A261DF31C1100CEFA94 /* Tipp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE76A251DF31C1100CEFA94 /* Tipp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DB94668A1DF3306F00292E44 /* CalculateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculateViewController.swift; sourceTree = "<group>"; };
+		DBE76A0B1DF30C3800CEFA94 /* BarTipper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarTipper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBE76A0E1DF30C3800CEFA94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DBE76A101DF30C3800CEFA94 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DBE76A131DF30C3800CEFA94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBE76A161DF30C3800CEFA94 /* BarTipper.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BarTipper.xcdatamodel; sourceTree = "<group>"; };
+		DBE76A181DF30C3800CEFA94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBE76A1B1DF30C3800CEFA94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DBE76A1D1DF30C3800CEFA94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBE76A251DF31C1100CEFA94 /* Tipp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tipp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBE76A081DF30C3800CEFA94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBE76A021DF30C3800CEFA94 = {
+			isa = PBXGroup;
+			children = (
+				DBE76A0D1DF30C3800CEFA94 /* BarTipper */,
+				DBE76A0C1DF30C3800CEFA94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBE76A0C1DF30C3800CEFA94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBE76A0B1DF30C3800CEFA94 /* BarTipper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBE76A0D1DF30C3800CEFA94 /* BarTipper */ = {
+			isa = PBXGroup;
+			children = (
+				DBE76A0E1DF30C3800CEFA94 /* AppDelegate.swift */,
+				DBE76A101DF30C3800CEFA94 /* ViewController.swift */,
+				DB94668A1DF3306F00292E44 /* CalculateViewController.swift */,
+				DBE76A121DF30C3800CEFA94 /* Main.storyboard */,
+				DBE76A251DF31C1100CEFA94 /* Tipp.swift */,
+				DBE76A181DF30C3800CEFA94 /* Assets.xcassets */,
+				DBE76A1A1DF30C3800CEFA94 /* LaunchScreen.storyboard */,
+				DBE76A1D1DF30C3800CEFA94 /* Info.plist */,
+				DBE76A151DF30C3800CEFA94 /* BarTipper.xcdatamodeld */,
+			);
+			path = BarTipper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBE76A0A1DF30C3800CEFA94 /* BarTipper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBE76A201DF30C3800CEFA94 /* Build configuration list for PBXNativeTarget "BarTipper" */;
+			buildPhases = (
+				DBE76A071DF30C3800CEFA94 /* Sources */,
+				DBE76A081DF30C3800CEFA94 /* Frameworks */,
+				DBE76A091DF30C3800CEFA94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BarTipper;
+			productName = BarTipper;
+			productReference = DBE76A0B1DF30C3800CEFA94 /* BarTipper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBE76A031DF30C3800CEFA94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = levi;
+				TargetAttributes = {
+					DBE76A0A1DF30C3800CEFA94 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DBE76A061DF30C3800CEFA94 /* Build configuration list for PBXProject "BarTipper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBE76A021DF30C3800CEFA94;
+			productRefGroup = DBE76A0C1DF30C3800CEFA94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBE76A0A1DF30C3800CEFA94 /* BarTipper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBE76A091DF30C3800CEFA94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBE76A1C1DF30C3800CEFA94 /* LaunchScreen.storyboard in Resources */,
+				DBE76A191DF30C3800CEFA94 /* Assets.xcassets in Resources */,
+				DBE76A141DF30C3800CEFA94 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBE76A071DF30C3800CEFA94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBE76A111DF30C3800CEFA94 /* ViewController.swift in Sources */,
+				DBE76A171DF30C3800CEFA94 /* BarTipper.xcdatamodeld in Sources */,
+				DBE76A261DF31C1100CEFA94 /* Tipp.swift in Sources */,
+				DB94668B1DF3306F00292E44 /* CalculateViewController.swift in Sources */,
+				DBE76A0F1DF30C3800CEFA94 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DBE76A121DF30C3800CEFA94 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBE76A131DF30C3800CEFA94 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DBE76A1A1DF30C3800CEFA94 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBE76A1B1DF30C3800CEFA94 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBE76A1E1DF30C3800CEFA94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DBE76A1F1DF30C3800CEFA94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBE76A211DF30C3800CEFA94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BarTipper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = orbanlevi.hu.BarTipper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DBE76A221DF30C3800CEFA94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BarTipper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = orbanlevi.hu.BarTipper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBE76A061DF30C3800CEFA94 /* Build configuration list for PBXProject "BarTipper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBE76A1E1DF30C3800CEFA94 /* Debug */,
+				DBE76A1F1DF30C3800CEFA94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBE76A201DF30C3800CEFA94 /* Build configuration list for PBXNativeTarget "BarTipper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBE76A211DF30C3800CEFA94 /* Debug */,
+				DBE76A221DF30C3800CEFA94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DBE76A151DF30C3800CEFA94 /* BarTipper.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DBE76A161DF30C3800CEFA94 /* BarTipper.xcdatamodel */,
+			);
+			currentVersion = DBE76A161DF30C3800CEFA94 /* BarTipper.xcdatamodel */;
+			path = BarTipper.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DBE76A031DF30C3800CEFA94 /* Project object */;
+}
