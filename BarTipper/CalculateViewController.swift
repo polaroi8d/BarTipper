@@ -30,13 +30,14 @@ class CalculateViewController: UIViewController {
     
     func displayTipp() {
         let resultTipp = tipp.calculateTipp()
-        let displayString = String(format: "Recommended tipp %02d", resultTipp)
+        let displayString = String(format: "Recommended tipp %d", resultTipp)
         displayText.text = displayString
     }
     
-    @IBAction func calculateButton(_ sender: UIButton) {
+    @IBAction func calculateButton(_ sender: AnyObject) {
         displayTipp()
     }
+    
     
     @IBAction func valueSalary(_ sender: UISegmentedControl) {
         switch salary.selectedSegmentIndex {
