@@ -19,12 +19,14 @@ class CalculateViewController: UIViewController {
     @IBOutlet weak var speed: UISegmentedControl!
     @IBOutlet weak var service: UISegmentedControl!
     
-    @IBOutlet weak var salaryTotal: UITextField!
+    @IBOutlet weak var calculate_button: UIButton!
+    @IBOutlet weak var cancel_button: UIButton!
     @IBOutlet weak var displayText: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        cancel_button.layer.cornerRadius = 7
+        calculate_button.layer.cornerRadius = 7
         displayText.text = baseString
     }
     
