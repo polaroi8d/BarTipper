@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		DB94668B1DF3306F00292E44 /* CalculateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB94668A1DF3306F00292E44 /* CalculateViewController.swift */; };
 		DB94668D1DF3737200292E44 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB94668C1DF3737200292E44 /* ProfileViewController.swift */; };
+		DB94668F1DF839D300292E44 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB94668E1DF839D300292E44 /* InfoViewController.swift */; };
 		DBE76A0F1DF30C3800CEFA94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE76A0E1DF30C3800CEFA94 /* AppDelegate.swift */; };
 		DBE76A111DF30C3800CEFA94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE76A101DF30C3800CEFA94 /* ViewController.swift */; };
 		DBE76A141DF30C3800CEFA94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBE76A121DF30C3800CEFA94 /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		DB94668A1DF3306F00292E44 /* CalculateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculateViewController.swift; sourceTree = "<group>"; };
 		DB94668C1DF3737200292E44 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		DB94668E1DF839D300292E44 /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		DBE76A0B1DF30C3800CEFA94 /* BarTipper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarTipper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBE76A0E1DF30C3800CEFA94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBE76A101DF30C3800CEFA94 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 				DBE76A0E1DF30C3800CEFA94 /* AppDelegate.swift */,
 				DBE76A101DF30C3800CEFA94 /* ViewController.swift */,
 				DB94668C1DF3737200292E44 /* ProfileViewController.swift */,
+				DB94668E1DF839D300292E44 /* InfoViewController.swift */,
 				DB94668A1DF3306F00292E44 /* CalculateViewController.swift */,
 				DBE76A121DF30C3800CEFA94 /* Main.storyboard */,
 				DBE76A251DF31C1100CEFA94 /* Tipp.swift */,
@@ -151,6 +154,7 @@
 				DB94668D1DF3737200292E44 /* ProfileViewController.swift in Sources */,
 				DBE76A111DF30C3800CEFA94 /* ViewController.swift in Sources */,
 				DBE76A171DF30C3800CEFA94 /* BarTipper.xcdatamodeld in Sources */,
+				DB94668F1DF839D300292E44 /* InfoViewController.swift in Sources */,
 				DBE76A261DF31C1100CEFA94 /* Tipp.swift in Sources */,
 				DB94668B1DF3306F00292E44 /* CalculateViewController.swift in Sources */,
 				DBE76A0F1DF30C3800CEFA94 /* AppDelegate.swift in Sources */,

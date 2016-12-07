@@ -11,25 +11,33 @@ import Foundation
 class Tipp {
     let tipp = 0
     
-    var totalAmount = 1000.0
+    var tippsalary = 0.0
     var tippSpeed = 0
     var tippService = 0
     var tippFood = 0
+    var tippAmount = 0.0
     
     func calculateTipp() -> Double {
-        var recommendedTipp = totalAmount * 0.1
+        var recommendedTipp = tippAmount * 0.1
         var rating: Double
         
         if ( tippSpeed == 0 && tippService == 0 && tippFood == 0 ){
-            return totalAmount
+            return recommendedTipp
         } else if ( tippSpeed == 5 && tippService == 5 && tippFood == 5 ) {
             recommendedTipp *= 3
-            return totalAmount + recommendedTipp
+            if ( tippsalary == 100000 ){
+                return recommendedTipp + recommendedTipp * (recommendedTipp/100000)
+            } else if ( tippsalary == 300000 ){
+                return recommendedTipp + recommendedTipp * (recommendedTipp/50000)
+            } else if ( tippsalary == 6000000){
+                return recommendedTipp + recommendedTipp * (recommendedTipp/10000)
+            } else {
+                return recommendedTipp
+            }
         } else {
             rating = Double ((tippSpeed * tippService * tippFood)) / Double (25)
             // value between 2 and 100 divide by 25
-            recommendedTipp *= rating
-            return totalAmount + recommendedTipp
+            return recommendedTipp * rating
         }
     }
 }

@@ -225,12 +225,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xEx-y1-kCS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="237" y="321"/>
+            <point key="canvasLocation" x="540" y="323"/>
         </scene>
-        <!--Info-->
+        <!--Info View Controller-->
         <scene sceneID="92i-Jh-cfb">
             <objects>
-                <viewController id="O16-7S-gKw" customClass="Info" sceneMemberID="viewController">
+                <viewController id="O16-7S-gKw" customClass="InfoViewController" customModule="BarTipper" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="GZe-0l-Ex4"/>
                         <viewControllerLayoutGuide type="bottom" id="E1Y-zl-Nk1"/>
@@ -239,38 +239,56 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="89s-Le-WHi">
-                                <frame key="frameInset" minX="24" minY="41" width="335" height="241"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="cdN-ug-SD7">
+                                <frame key="frameInset" minX="92" minY="43" width="228" height="67"/>
                                 <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" text="BarTipper v1.0 Created by Levente Orban. If you want to upgrade this little app you can check it on my GitHub.com/polaroi8d" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="FH8-Sf-1Sk">
-                                        <frame key="frameInset" width="335" height="83"/>
-                                        <color key="backgroundColor" red="0.91372549020000005" green="0.94901960780000005" blue="0.97647058819999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap if you want to contribute. " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cv7-MS-euj">
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.23529411759999999" green="0.55294117649999996" blue="0.7725490196" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <fontDescription key="fontDescription" style="UICTFontTextStyleCallout"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" text="Thanks for contributong, if you have any question fill free to ask it. Don't forget the rating. " textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="rQw-bv-nXw">
-                                        <frame key="frameInset" minY="113" width="335" height="128"/>
-                                        <color key="backgroundColor" red="0.91372549020000005" green="0.94901960780000005" blue="0.97647058819999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YBK-9R-zOk">
+                                        <color key="backgroundColor" red="0.43529411759999997" green="0.71764705880000002" blue="0.91372549020000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="   GitHub   ">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="githubButtonAction:" destination="O16-7S-gKw" eventType="touchUpInside" id="S70-q3-GzV"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="EK9-M6-uSP">
+                                <frame key="frameInset" minX="104" minY="191" width="201" height="46"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Created by Levente Orban" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IPw-8f-Syx">
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.23529411759999999" green="0.55294117649999996" blue="0.7725490196" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BarTipper v0.1b" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="irr-cA-Ajf">
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.23529411759999999" green="0.55294117649999996" blue="0.7725490196" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" red="0.91372549020000005" green="0.94901960780000005" blue="0.97647058819999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="89s-Le-WHi" firstAttribute="leading" secondItem="b7U-Hx-X5w" secondAttribute="leading" constant="20" id="dGg-ob-efp"/>
-                            <constraint firstItem="89s-Le-WHi" firstAttribute="top" secondItem="GZe-0l-Ex4" secondAttribute="bottom" constant="20" id="k34-02-Shu"/>
-                            <constraint firstAttribute="trailing" secondItem="89s-Le-WHi" secondAttribute="trailing" constant="20" id="ncB-JR-x9f"/>
-                            <constraint firstItem="89s-Le-WHi" firstAttribute="centerX" secondItem="b7U-Hx-X5w" secondAttribute="centerX" id="r7M-Ix-2tK"/>
+                            <constraint firstItem="cdN-ug-SD7" firstAttribute="top" secondItem="GZe-0l-Ex4" secondAttribute="bottom" constant="20" id="YPa-xd-Bf6"/>
+                            <constraint firstItem="cdN-ug-SD7" firstAttribute="centerX" secondItem="b7U-Hx-X5w" secondAttribute="centerX" id="aH9-xu-GlL"/>
+                            <constraint firstItem="EK9-M6-uSP" firstAttribute="centerX" secondItem="b7U-Hx-X5w" secondAttribute="centerX" id="fjT-Oo-qGA"/>
+                            <constraint firstItem="E1Y-zl-Nk1" firstAttribute="top" secondItem="EK9-M6-uSP" secondAttribute="bottom" constant="30" id="gSi-qC-Ifn"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="githubButton" destination="YBK-9R-zOk" id="MXi-wL-Smx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="luB-z7-Liz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-229.5" y="765.5"/>
+            <point key="canvasLocation" x="-146" y="669"/>
         </scene>
         <!--Calculate View Controller-->
         <scene sceneID="oDM-RC-AeD">
@@ -398,16 +416,33 @@
                                     </button>
                                 </subviews>
                             </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="znO-wB-fe6">
+                                <frame key="frameInset" minX="92" minY="303" width="205" height="61"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="          Total Ammount          " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FwA-39-CYi">
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.23529411759999999" green="0.55294117649999996" blue="0.7725490196" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5aH-KI-lAb">
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="0.91372549020000005" green="0.94901960780000005" blue="0.97647058819999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="llq-mz-IO4" firstAttribute="leading" secondItem="MY1-cl-eRa" secondAttribute="leadingMargin" constant="20" id="1sC-9q-HOm"/>
                             <constraint firstItem="llq-mz-IO4" firstAttribute="top" secondItem="5aQ-xS-H9Z" secondAttribute="bottom" constant="20" id="5Bi-Dm-EhR"/>
+                            <constraint firstItem="znO-wB-fe6" firstAttribute="centerX" secondItem="MY1-cl-eRa" secondAttribute="centerX" id="5Pj-u6-m27"/>
                             <constraint firstItem="fP8-Gp-l5f" firstAttribute="top" secondItem="xAi-gl-Z88" secondAttribute="bottom" constant="70" id="CDn-ua-p9e"/>
                             <constraint firstItem="xAi-gl-Z88" firstAttribute="top" secondItem="yb0-jf-tpM" secondAttribute="bottom" constant="50" id="KyD-Rw-zWm"/>
                             <constraint firstItem="yb0-jf-tpM" firstAttribute="centerX" secondItem="MY1-cl-eRa" secondAttribute="centerX" id="N4X-Vh-5UX"/>
                             <constraint firstItem="llq-mz-IO4" firstAttribute="centerX" secondItem="MY1-cl-eRa" secondAttribute="centerX" id="VxA-tE-xHc"/>
                             <constraint firstItem="xAi-gl-Z88" firstAttribute="centerX" secondItem="MY1-cl-eRa" secondAttribute="centerX" id="aFX-Pn-hQj"/>
+                            <constraint firstItem="yb0-jf-tpM" firstAttribute="top" secondItem="znO-wB-fe6" secondAttribute="bottom" constant="30" id="cz6-An-ZBc"/>
                             <constraint firstAttribute="trailingMargin" secondItem="llq-mz-IO4" secondAttribute="trailing" constant="20" id="kht-FY-COx"/>
                         </constraints>
                     </view>
@@ -419,11 +454,12 @@
                         <outlet property="salary" destination="hsG-qg-lDz" id="q9K-5X-c6E"/>
                         <outlet property="service" destination="sJ4-zz-1yP" id="cVs-Yb-g4N"/>
                         <outlet property="speed" destination="lne-PF-bL0" id="jku-xA-w8y"/>
+                        <outlet property="value_salary" destination="5aH-KI-lAb" id="EBu-TH-rM7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1FV-gW-6yV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="237" y="-452"/>
+            <point key="canvasLocation" x="540" y="-452.02398800599701"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>

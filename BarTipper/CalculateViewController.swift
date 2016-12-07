@@ -11,7 +11,7 @@ import UIKit
 class CalculateViewController: UIViewController {
     
     let tipp = Tipp()
-    let baseString = "Recommended tipp is.."
+    let baseString = "Give the parameters for me, please!"
     
     // UISegmented Controllers
     @IBOutlet weak var salary: UISegmentedControl!
@@ -23,20 +23,26 @@ class CalculateViewController: UIViewController {
     @IBOutlet weak var cancel_button: UIButton!
     @IBOutlet weak var displayText: UILabel!
     
+    @IBOutlet weak var value_salary: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         cancel_button.layer.cornerRadius = 7
         calculate_button.layer.cornerRadius = 7
         displayText.text = baseString
+        
+        value_salary.keyboardType = UIKeyboardType.numberPad
     }
     
     func displayTipp() {
         let resultTipp = tipp.calculateTipp()
-        let displayString = String(format: "Recommended tipp %d", resultTipp)
+        let displayString = String(format: "Recommended tipp is %.2f", resultTipp)
         displayText.text = displayString
     }
     
     @IBAction func calculateButton(_ sender: AnyObject) {
+        //value_salary.text = (String); tipp.salary
+        tipp.tippAmount = Double(value_salary.text!)!
         displayTipp()
     }
     
@@ -44,11 +50,11 @@ class CalculateViewController: UIViewController {
     @IBAction func valueSalary(_ sender: UISegmentedControl) {
         switch salary.selectedSegmentIndex {
         case 0:
-            tipp.totalAmount = 100000
+            tipp.tippsalary = 100000
         case 1:
-            tipp.totalAmount = 300000
+            tipp.tippsalary = 300000
         case 2:
-            tipp.totalAmount = 600000
+            tipp.tippsalary = 600000
         default:
             print ("Error")
         }
